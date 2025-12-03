@@ -6,6 +6,7 @@ mijn_dictionary = {
 }
 a = 3 * 0.8
 mijn_dictionary ["aanbieding"] = a
+mijn_dictionary ["reclame_tekst"] = f"Vandaag in de aanbieding: vanille-ijs, 1 liter - slechts € {a}"
 print()
 for k, v in mijn_dictionary.items():
     print(k, v)
