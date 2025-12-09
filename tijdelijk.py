@@ -12,7 +12,7 @@ for k, v in prijzen.items():
     print(k, v)
 print(reclame_tekst4)
 for l in reclame_tekst4:
-    print(l)
+    print(l.lower())
 
 
 
