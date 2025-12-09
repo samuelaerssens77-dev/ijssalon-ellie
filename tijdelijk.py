@@ -6,9 +6,10 @@ prijzen = {
 aanbieding = prijzen ["aardbei"] * 0.8  # 3 * 0.8 = €2.40
 reclame_tekst = f"Vandaag in de aanbieding: vanille-ijs, 1 liter - slechts € {aanbieding}"
 reclame_tekst2 = reclame_tekst[:63]
+reclame_tekst3 = reclame_tekst2.upper()
 for k, v in prijzen.items():
     print(k, v)
-print(reclame_tekst2)
+print(reclame_tekst3)
     
 
 
