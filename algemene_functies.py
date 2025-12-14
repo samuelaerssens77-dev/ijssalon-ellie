@@ -1,14 +1,21 @@
-def mijn_functie_1(a,b,c,d):
-   return a,b,c,d
-a = 2*2
-b = 4*4
-c = 10*10 
-d = 12*12
+def mijn_functie_2(a,b):
+   uitvoer_lijst = []
+   uitvoer_lijst.append(a+b)
+   uitvoer_lijst.append(a-b)
+   uitvoer_lijst.append(a*b)
+   uitvoer_lijst.append(a/b)
 
-           
-totaal = mijn_functie_1(a,b,c,d)
+   
+   
+   return uitvoer_lijst
 
-print(totaal)
+print(mijn_functie_2(12,3))
+print(mijn_functie_2(12,2))
+print(mijn_functie_2(10,5))
+print(mijn_functie_2(100,20))
+
+
+
 
 
 
