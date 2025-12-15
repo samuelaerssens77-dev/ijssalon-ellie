@@ -1,10 +1,19 @@
-def aanbieding_1(smaak,prijs,korting):
-    prijs_na_korting = prijs +(0.6+korting)
-    smaak = "aardbei"
-    prijs = "4"
-    uitvoer =  f"Vandaag in de aanbieding: Emmertje ijs (1 liter) in de smaak {smaak}, van {prijs} euro voor {prijs_na_korting} euro"
-    return uitvoer  
+def inkomsten_totaal():
+    inkomsten = 220 + 430 + 125 + 160 + 205 + 90 + 340
+    return inkomsten
+totaal = inkomsten_totaal()
 
-print(aanbieding_1(0,1,2))
 
+print(totaal)
+
+    
+    
+    
+  
+      
+   
+  
+ 
+    
+    
 
