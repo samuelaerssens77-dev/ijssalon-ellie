@@ -1,13 +1,13 @@
-def gemiddelde(mijn_lijst):
-    mijn_lijst = 220, 430, 125, 160, 90, 345
-    totaal = sum(mijn_lijst)
-    aantal = len(mijn_lijst)
-    gemiddeld = totaal / aantal
+def meervoudig(invoer_lijst):
+    invoer_lijst = 10,5,3,2,1,9,7
+    laagste = min(invoer_lijst)
+    hoogste = max(invoer_lijst)
+    totaal = (laagste,hoogste)  
+   
+    return totaal
 
-    uitvoer = f"De gemiddelde inkomsten deze week zijn {gemiddeld} euro"
-    return uitvoer
+print(meervoudig(0))
 
-print(gemiddelde(0))
 
 
     
