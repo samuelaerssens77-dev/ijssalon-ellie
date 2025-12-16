@@ -3,8 +3,11 @@ def gemiddelde(mijn_lijst):
     totaal = sum(mijn_lijst)
     aantal = len(mijn_lijst)
     gemiddeld = totaal / aantal
-    return gemiddeld
-   
+    
+    uitvoer = f"De gemiddelde inkomsten deze week zijn {gemiddeld} euro."
+    return uitvoer
+    
+
 
     
 print(gemiddelde(0))
