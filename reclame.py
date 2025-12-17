@@ -3,7 +3,8 @@ def laag_en_hoog(mijn_lijst):
     hoogste_waarde = max(mijn_lijst)
     laagste_waarde = min(mijn_lijst)
     return [hoogste_waarde, laagste_waarde]
-print(laag_en_hoog(0))
+inkomsten_lijst = laag_en_hoog
+print(laag_en_hoog(inkomsten_lijst))
     
     
   
