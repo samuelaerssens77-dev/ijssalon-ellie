@@ -1,20 +1,9 @@
-def inkomsten_totaal():
-    inkomsten = 220 + 430 + 125 + 160 + 205 + 90 + 340
-    return inkomsten
-   
-    
-omzet = 1570
-
-btw = 1570/109*9
-uitvoer = f"Het totaal van alle inkomsten van deze week is {omzet} euro, waarover {btw} euro btw betaald moet worden"    
-totaal = uitvoer
-
-print(totaal)
-
-
-
-
-    
+def laag_en_hoog(mijn_lijst):
+    mijn_lijst = [220, 430, 125, 160, 205, 90, 345]
+    hoogste_waarde = max(mijn_lijst)
+    laagste_waarde = min(mijn_lijst)
+    return [hoogste_waarde, laagste_waarde]
+print(laag_en_hoog(0))
     
     
   
